@@ -1,0 +1,21 @@
+apply plugin: 'groovy'
+
+
+
+
+sourceSets {
+    main {
+        groovy {
+            srcDirs = ['src/main/groovy']
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile localGroovy()
+    //'org.codehaus.groovy:groovy-all:2.4.14'
+}
