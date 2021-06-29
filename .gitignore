@@ -1,2 +1,6 @@
 /gradlew
 /gradlew.bat
+/.gradle/
+/.idea/
+/build/classes/groovy/main/osp/leobert/groovyworkshop/mop/
+/gradle/wrapper/
